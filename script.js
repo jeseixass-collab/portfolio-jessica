@@ -42,3 +42,20 @@ animItems.forEach(el => {
   el.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
   fadeObserver.observe(el);
 });
+
+// ---- Case study modal ----
+function openCase(id) {
+  const overlay = document.getElementById('case-overlay');
+  document.querySelectorAll('.case-modal').forEach(m => m.style.display = 'none');
+  const modal = document.getElementById(id);
+  if (modal) modal.style.display = 'block';
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeCase(e) {
+  if (e && e.target !== e.currentTarget) return;
+  const overlay = document.getElementById('case-overlay');
+  overlay.classList.remove('open');
+  document.body.style.overflow = '';
+}
