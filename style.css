@@ -386,7 +386,7 @@ a {
 /* ---- SOBRE ---- */
 .about-section {
   margin: 2rem 4rem;
-  background: var(--bg2);
+  background: rgba(18, 18, 31, 0.92);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   padding: 1.75rem 2rem;
@@ -655,7 +655,7 @@ a {
 /* ---- CONTATO ---- */
 .contact-section {
   margin: 0.5rem 4rem 2rem;
-  background: linear-gradient(135deg, #12102b 0%, #1a1040 50%, #1e1040 100%);
+  background: linear-gradient(135deg, rgba(18, 16, 43, 0.92) 0%, rgba(26, 16, 64, 0.92) 50%, rgba(30, 16, 64, 0.92) 100%);
   border: 1px solid var(--border);
   border-radius: var(--radius-xl);
   padding: 2.5rem 2.5rem;
