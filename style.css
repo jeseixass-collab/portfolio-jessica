@@ -67,6 +67,14 @@ a {
   font-weight: 900;
   color: var(--purple2);
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-img {
+  height: 40px;
+  width: auto;
+  display: block;
 }
 
 .nav-logo sup {
