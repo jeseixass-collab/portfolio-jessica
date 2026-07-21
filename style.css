@@ -152,17 +152,16 @@ a {
   gap: 2rem;
 }
 
-.hero-bg-text {
+.hero-bg-logo {
   position: absolute;
   bottom: -2rem;
   right: -1rem;
-  font-size: 22rem;
-  font-weight: 900;
-  color: rgba(124, 58, 237, 0.04);
-  line-height: 1;
+  width: 34rem;
+  max-width: 60vw;
+  height: auto;
+  opacity: 0.05;
   pointer-events: none;
   z-index: 0;
-  letter-spacing: -0.05em;
   user-select: none;
 }
 
@@ -820,7 +819,7 @@ a {
   .hero-desc { margin-left: auto; margin-right: auto; }
   .hero-btns { justify-content: center; }
   .hero-socials { justify-content: center; }
-  .hero-bg-text { font-size: 12rem; }
+  .hero-bg-logo { width: 20rem; }
 
   .about-section {
     margin: 1.5rem 1.5rem;
